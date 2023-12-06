@@ -50,10 +50,10 @@
 - This model can also be run on a whole slide image that overlays a cancer mask. This can be done through the creation of a function that breaks a slide into tiles, runs the model on each tile and then applies the mask (probability shaded).
 - The tiles are then stitched together, with the output being the whole slide image with the cancer mask overlayed. An example of this is shown below, using the same slide image displayed previously: <br>
 <br>
-<img src="images/slide_mask.png" width="500"/>
+<img src="images/slide_mask.png" width="700"/>
 <br>
 - Shading the regions of the slide with the highest probability of cancer can help save a pathologist time and improve their accuracy (especially sensitivity)
-- This model can also be used by practing pathologists to help identify whether specific tissue samples are cancerous or not. Try it out [here](https://prostate-cancer-detector.streamlit.app/)!<br>
+- This model can also be used by practing pathologists to help identify whether specific tissue samples are cancerous or not. Try it out [here](https://prostate-cancer-detector.streamlit.app/)! <br>
 <br>
 <img src="images/streamlit_cancer.png" width="500"/> <img src="images/streamlit_noncancer.png" width="500"/>
 <br>
