@@ -26,6 +26,7 @@
 <br>
 <img src="images/slide.png" width="500"/>
 <br>
+
 - Each whole slide image had an accompanying cancer mask, which would indicate which regions of the slide where cancerous or benign
 - Given the large size of each whole slide image (around 40 MB), the first step was to break the slide up into smaller tiles. 
 - A function was created that broke the slide up into tiles of a specified size and returns the (x, y) pixel coordinates of the top left corner
