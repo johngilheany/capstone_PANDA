@@ -53,7 +53,8 @@
 <img src="images/slide_mask.png" width="700"/>
 <br>
 - Shading the regions of the slide with the highest probability of cancer can help save a pathologist time and improve their accuracy (especially sensitivity)
-- This model can also be used by practing pathologists to help identify whether specific tissue samples are cancerous or not. Try it out here: https://www.prostate-cancer-detector.streamlit.app <br>
+- This model can also be used by practing pathologists to help identify whether specific tissue samples are cancerous or not. Try it out here: https://www.prostate-cancer-detector.streamlit.app
+<br>
 <br>
 <img src="images/streamlit_cancer.png" width="500"/> <img src="images/streamlit_noncancer.png" width="500"/>
 <br>
