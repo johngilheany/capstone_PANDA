@@ -33,6 +33,7 @@
 <br>
 <img src="images/slide_tiling.png" width="900"/>
 <br>
+
 - A function that determined if a tile is cancerous or benign based on the coordinates from its mask and associated Karolinska/Radboud label (2 for cancer in Karolinska and 3, 4, or 5 for Radboud) was then created. If at least one pixel in the associated region from the mask was cancerous, the tile was classified as cancerous
 - This was done for each WSI, to create tiled images with the following naming convention: slide-name_tile-coordinate_label. Each tile was saved down in its respective folder
 - 80% of the tiles were randomly selected as the training set, with the remaining 20% serving as the validation set 
